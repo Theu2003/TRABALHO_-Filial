@@ -11,7 +11,7 @@
     <header>
         <h1>Portal Educacional</h1>
         <p>Compartilhe e descubra materiais de estudo.</p>
-        <button onclick="scrollToMaterials()">Explore os Materiais</button>
+        <a href="login.html"><button>Fazer Login</button></a> <!-- Botão que redireciona para a página de login -->
     </header>
     
     <section class="content">
@@ -33,24 +33,6 @@
         </form>
     </section>
 
-    <section id="registerSection">
-        <h2>Registrar Conta</h2>
-        <form id="registerForm">
-            <input type="text" id="registerUsername" placeholder="Usuário" required>
-            <input type="password" id="registerPassword" placeholder="Senha" required>
-            <button type="submit">Registrar</button>
-        </form>
-    </section>
-
-    <section id="loginSection">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <input type="text" id="username" placeholder="Usuário" required>
-            <input type="password" id="password" placeholder="Senha" required>
-            <button type="submit">Acessar Perfil</button>
-        </form>
-    </section>
-
     <section class="cta">
         <h2>Contribua com o Portal!</h2>
         <p>Ajude outros estudantes a encontrar materiais úteis!</p>
@@ -61,7 +43,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script src="register.js"></script>
-    <script src="perfil.js"></script>
 </body>
 </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/open-props">
+    <link rel="stylesheet" href="style.css">
+    <title>Portal Educacional</title>
+</head>
+<body>
+    <header>
+        <h1>Portal Educacional</h1>
+        <p>Compartilhe e descubra materiais de estudo.</p>
+        <button onclick="scrollToMaterials()">Explore os Materiais</button>
+    </header>
+    
+    <section class="content">
+        <h2>O que é nosso Portal?</h2>
+        <p>Uma plataforma onde qualquer um pode adicionar links para <span class="highlight">materiais educativos</span> e acessá-los <span class="highlight">gratuitamente</span>.</p>
+    </section>
+
+    <section class="materials" id="materials">
+        <h2>Materiais Disponíveis</h2>
+        <ul id="materialList"></ul>
+    </section>
+
+    <section class="submit-material">
+        <h2>Adicione um Material</h2>
+        <form id="materialForm">
+            <input type="text" id="materialTitle" placeholder="Título do Material" required>
+            <input type="url" id="materialURL" placeholder="URL do Material" required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+
+    <section id="registerSection">
+        <h2>Registrar Conta</h2>
+        <form id="registerForm">
+            <input type="text" id="registerUsername" placeholder="Usuário" required>
+            <input type="password" id="registerPassword" placeholder="Senha" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <section id="loginSection">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Acessar Perfil</button>
+        </form>
+    </section>
+
+    <section class="cta">
+        <h2>Contribua com o Portal!</h2>
+        <p>Ajude outros estudantes a encontrar materiais úteis!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portal Educacional</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="register.js"></script>
+    <script src="perfil.js"></script>
+</body>
+</html>

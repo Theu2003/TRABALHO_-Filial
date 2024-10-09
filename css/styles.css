@@ -1,0 +1,256 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ebe9e9;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Efeito */
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Banner */
+.banner, .image {
+    background-color: #0073e6;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.banner h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+/* Destaques e Categorias */
+.destaques, .categorias {
+    padding: 20px 0;
+}
+
+.destaques .grid, .categorias .grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.destaques article, .categorias .category {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.destaques article:hover, .categorias .category:hover {
+    transform: scale(1.05);
+}
+
+.category-page {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de arquivos */
+.file-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.file-list article {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.file-list article:hover {
+    transform: scale(1.05);
+}
+
+/* Botão */
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Categorias */
+.categorias .category {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Botões nas categorias */
+.categorias .category .button {
+    background-color: #007bff; 
+}
+
+/* Paginação */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+/* Formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 2px solid #444;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .destaques .grid, .categorias .grid {
+        flex-direction: column;
+    }
+
+    .banner, .image {
+        padding: 20px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+
+    .busca input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .busca button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .file-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+

@@ -3,45 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/open-props">
-    <link rel="stylesheet" href="style.css">
-    <title>Portal Educacional</title>
+    <title>Portal de HTML & CSS para Iniciantes</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
+
+    <!-- Cabeçalho -->
     <header>
-        <h1>Portal Educacional</h1>
-        <p>Compartilhe e descubra materiais de estudo.</p>
-        <a href="login.html"><button>Fazer Login</button></a> <!-- Botão que redireciona para a página de login -->
+        <div class="container">
+            <img width=10% src="logo.png" alt="Logo do Site é uma Roposa">
+            <h1>Portal de HTML & CSS</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tutoriais.html">Tutoriais</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="codigo-fonte.html">Códigos Fonte</a></li>
+                    <li><a href="contato.html">Contato</a></li>            
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <h2>Bem-vindo! Você está no local certo para aprender HTML e CSS!</h2>
+            <p>Explore tutoriais, cursos, projetos e muito mais para aprimorar suas habilidades!</p>
+        </div>
+    </section>
     
-    <section class="content">
-        <h2>O que é nosso Portal?</h2>
-        <p>Uma plataforma onde qualquer um pode adicionar links para <span class="highlight">materiais educativos</span> e acessá-los <span class="highlight">gratuitamente</span>.</p>
+    <section class="image">
+        <div class="container">
+            <img width=70% src="Codigo_html_2024.jpg" alt="Código HTML.">
+        </div>
+    </section> 
+
+    <!-- Destaques -->
+    <section class="destaques">
+        <div class="container">
+            <h2>Arquivos Recentes ou Populares</h2>
+            <div class="grid">
+                <article>
+                    <h3>Tutorial HTML Básico</h3>
+                    <p>Aprenda o básico de HTML.</p>
+                    <a href="https://www.youtube.com/watch?v=r0CWl2EhR6Q&t=5s" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;"  class="button">Visitar</a>
+                </article>
+                <article>
+                    <h3>Curso de CSS Completo</h3>
+                    <p>Aprofunde seus conhecimentos em CSS.</p>
+                    <a href="https://youtu.be/HtVRRHoASes?si=OQbWiH46OPiOoByV" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <article>
+                    <h3>Curso Completo de HTML e CSS</h3>
+                    <p>Aprenda mais com o Prof. Gustavo Guanabara.</p>
+                    <a href="https://youtu.be/Ejkb_YpuHWs?si=UVMnbHZxgELiGjmP" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <!-- Adicionar mais artigos conforme necessário -->
+            </div>
+        </div>
     </section>
 
-    <section class="materials" id="materials">
-        <h2>Materiais Disponíveis</h2>
-        <ul id="materialList"></ul>
+    <!-- Categorias -->
+    <section class="categorias">
+        <div class="container">
+            <h2>Categorias</h2>
+            <div class="grid">
+                <a href="tutoriais.html" class="category">Tutoriais</a>
+                <a href="cursos.html" class="category">Cursos</a>
+                <a href="projetos.html" class="category">Projetos</a>
+                <a href="codigo-fonte.html" class="category">Códigos Fonte</a>
+            </div>
+        </div>
     </section>
 
-    <section class="submit-material">
-        <h2>Adicione um Material</h2>
-        <form id="materialForm">
-            <input type="text" id="materialTitle" placeholder="Título do Material" required>
-            <input type="url" id="materialURL" placeholder="URL do Material" required>
+    <section class="submit-coment">
+        <h2>Comentários</h2>
+        <form id="comentForm">
+            <input type="text" id="comentTitle" placeholder="Deixe sua dúvida:" required>
             <button type="submit">Adicionar</button>
         </form>
     </section>
 
-    <section class="cta">
-        <h2>Contribua com o Portal!</h2>
-        <p>Ajude outros estudantes a encontrar materiais úteis!</p>
+
+    <!-- Busca Google -->
+    <section class="busca">
+        <div class="container">
+            <h2>Busca</h2>
+                <script async src="https://cse.google.com/cse.js?cx=1563539459293413c">
+                </script>
+            <div class="gcse-search"></div>
+
+        </div>
     </section>
 
+    <!-- Notícias/Artigos -->
+    <section class="noticias">
+        <div class="container">
+            <h2>Notícias e Artigos Relacionados</h2>
+            <ul>
+                <li><a href="https://developer.chrome.com/blog/new-in-web-ui-io-2024?hl=pt-br" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;">Artigo 1 - Novidades no CSS</a></li>
+                <li><a href="https://medium.com/totvsdevelopers/2023-um-ano-de-ouro-para-o-css-b31e70f9b2ef" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;">Artigo 2 - Como otimizar seu site</a></li>
+                <!-- Adicionar mais notícias conforme necessário -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Portal Educacional</p>
+        <div class="container">
+            <p>&copy; 2024 - Materiais HTML & CSS para Iniciantes</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>

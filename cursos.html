@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Materiais HTML & CSS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img width=10% src="logo.png" alt="Logo do Site é uma Roposa">
+            <h1>Cursos - HTML & CSS</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tutoriais.html">Tutoriais</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="codigo-fonte.html">Códigos Fonte</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Título da Categoria -->
+    <section class="category-page">
+        <div class="container">
+            <h2>Cursos</h2>
+            
+            <!-- Opções de Ordenação -->
+            <div class="sorting">
+                <label for="sort">Ordenar por:</label>
+                <select id="sort">
+                    <option value="recent">Mais Recentes</option>
+                    <option value="popular">Mais Populares</option>
+                </select>
+            </div>
+
+            <!-- Lista de Arquivos -->
+            <div class="file-list">
+                <article>
+                    <h3>Curso de HTML Completo</h3>
+                    <p>Aprenda HTML do básico ao avançado. <br></br></p>
+                    <a href="https://youtu.be/9dcOX0oOe-k?si=BxlZZiAWZRbLwsmb" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <article>
+                    <h3>Curso Avançado de CSS</h3>
+                    <p>Aprofunde-se nas funcionalidades mais avançadas do CSS.</p>
+                    <a href="https://youtu.be/vwbegraDXD8?si=lpPgIvl6u_0_yzdu" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <!-- Adicione mais cursos conforme necessário -->
+            </div>
+
+            <!-- Paginação -->
+            <div class="pagination">
+                <a href="#">&laquo; Anterior</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">Próxima &raquo;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Materiais HTML & CSS para Iniciantes</p>
+        </div>
+    </footer>
+
+</body>
+</html>

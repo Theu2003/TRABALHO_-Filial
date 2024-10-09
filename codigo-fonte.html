@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Fonte - Materiais HTML & CSS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img width=10% src="logo.png" alt="Logo do Site é uma Roposa">
+            <h1>Códigos Fonte - HTML & CSS</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tutoriais.html">Tutoriais</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="codigo-fonte.html">Códigos Fonte</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Título da Categoria -->
+    <section class="category-page">
+        <div class="container">
+            <h2>Códigos Fonte</h2>
+            
+            <!-- Opções de Ordenação -->
+            <div class="sorting">
+                <label for="sort">Ordenar por:</label>
+                <select id="sort">
+                    <option value="recent">Mais Recentes</option>
+                    <option value="popular">Mais Populares</option>
+                </select>
+            </div>
+
+            <!-- Lista de Arquivos -->
+            <div class="file-list">
+                <article>
+                    <h3>Código para formulário de contato</h3>
+                    <p>Use este código para criar formulários de contato funcionais.</p>
+                    <a href="https://youtu.be/k7iMlH5YyK8?si=M-leKEbYGrvrcDn3" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <article>
+                    <h3>Código de layout flexível com Flexbox</h3>
+                    <p>Exemplo de layout responsivo usando Flexbox.</p>
+                    <a href="https://youtu.be/77OGBuKmJKI?si=2i6RyYL_46CJfLXa" onclick="window.open (this.href, '_blank', 
+                    'width=800,height=600'); return false;" class="button">Visitar</a>
+                </article>
+                <!-- Adicione mais código conforme necessário -->
+            </div>
+            <!-- Paginação -->
+            <div class="pagination">
+                <a href="#">&laquo; Anterior</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">Próxima &raquo;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Materiais HTML & CSS para Iniciantes</p>
+        </div>
+    </footer>
+
+</body>
+</html>

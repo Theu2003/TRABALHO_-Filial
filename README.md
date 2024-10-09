@@ -22,5 +22,5 @@ Dentro do site há uma parte "Contato", onde você pode deixar sugestões de mel
  https://www.youtube.com/watch?v=Ejkb_YpuHWs
  https://www.youtube.com/watch?v=bCFTv8a59PE
  https://federalcubatao.com.br/html-e-css/estrutura-html-tudo-o-que-voce-precisa-saber-para-criar-paginas-incriveis/#:~:text=
- https://pt.wix.com/blog/2019/12/como-criar-landing-page/?utm_source=bing&utm_medium=cpc&utm_campaign=506131767^1273236111079180^search - dsa&experiment_id=https%3A%2F%2Fpt.wix.com%2Fblog%2F2019%2F12%2Fcomo-criar-landing-page%2F^b^^&msclkid=63b913399e2e1f3bd96e75c022eed3fd
+ https://pt.wix.com/blog/2019/12/como-criar-landing-page/?utm_source=bing&utm_medium=cpc&utm_campaign=506131767^1273236111079180^search
  

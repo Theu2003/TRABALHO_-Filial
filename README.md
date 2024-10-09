@@ -9,8 +9,7 @@ Com o site "Web-Space" pretendemos criar um local de armazenamento das principai
 ## Ferramentas utilizadas:  
 
 **HTML** (HyperText Markup Language)  
-**CSS** (Cascading Style Sheets)  
-**JavaScript** Para permitir interação no site.  
+**CSS** (Cascading Style Sheets).   
 
 ## Como colaborar:  
 

@@ -1,6 +1,6 @@
 # Web Space  
 
-### Wellington da Costa Braga, Mateus Martins Peres, Charles Bernardo Buteri e Jonas Marcos Dias Rocha  
+### Wellington da Costa Braga  Mateus Martins Peres  Charles Bernardo Buteri  Jonas Marcos Dias Rocha  
 
 ## Objetivo:  
 
